@@ -6,7 +6,6 @@ import {
   MenuList,
   useStatStyles,
 } from "@chakra-ui/react";
-import React from "react";
 import { BsChevronDown } from "react-icons/bs";
 
 interface Props {
