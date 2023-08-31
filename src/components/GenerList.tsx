@@ -18,8 +18,8 @@ interface Props {
 }
 const GenerList = ({ onSelectGenre }: Props) => {
   const { data, isLoading, error } = useGeners();
-  if (error) return null;
-  if (isLoading) return <Spinner />;
+  // if (error) return null;
+  // if (isLoading) return <Spinner />;
   return (
     <>
       <Heading fontSize="2xl" marginBottom={3}>
